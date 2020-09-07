@@ -26,4 +26,10 @@ public class ElasticSearchClient {
         //释放资源
         client.close();
     }
+
+    @Test
+    public void test1(){
+
+        System.out.println("aa");
+    }
 }
